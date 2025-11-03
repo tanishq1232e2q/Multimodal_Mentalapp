@@ -1,0 +1,41 @@
+# Python Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Large Model Files & Data
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.npz
+*.csv
+*.zip
+*.h5
+
+# Logs & Temp
+*.log
+temp/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep empty folder structure (optional)
+!checkpoints/.gitkeep

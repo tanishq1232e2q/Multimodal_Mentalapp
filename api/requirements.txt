@@ -1,0 +1,13 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+torch==2.4.0+cpu
+transformers==4.44.2
+librosa==0.10.2
+mne==1.7.0
+scipy==1.14.1
+pandas==2.2.2
+numpy==2.1.0
+scikit-learn==1.5.2
+gdown==5.2.0
+python-multipart==0.0.9
+mangum==0.17.0

@@ -1,0 +1,136 @@
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  
+  height: 45rem;
+  background-color: white;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    height: 90vh;
+    font-size: 1.4rem;
+    
+    background-color:white;
+}
+.hero p{
+    margin: 1.3rem 0rem;
+    text-align: center;
+}
+.btn {
+  background-color: #0070f3;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-right: 1.2rem;
+}
+.btn1 {
+  background-color: #47f334;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+
+.container .main {
+  height: 34rem;
+  width: 100%;
+  background-image: url("/images/na_january_35.jpg");
+  background-size: cover;
+  background-size: 86%;
+    background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slides{
+  margin: -4rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.men{
+  margin-top: 10rem;
+  height: 22rem;
+  width: 70rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/representation-human-brain-intellect.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 1.2rem;
+}
+.men .cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  font-size: 1.5rem;
+  text-align: center;
+  color: aliceblue;
+  
+
+}
+.users{
+  margin-top: 4rem;
+  
+}
+.myforms{
+  height: 33rem;
+  margin-top: 2rem;
+  
+  overflow-y:scroll ;
+  
+}
+.myforms .ai #kk{
+  width:100%;
+  background: linear-gradient(90deg,rgba(223, 242, 247, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.myforms .mood{
+  height: 12rem;
+  font-size: 1.4rem;
+  margin: 1.2rem 0rem;
+background: #dff2f7;
+color: black;
+background: linear-gradient(90deg,rgba(223, 242, 247, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  
+}
+
+@media(max-width: 500px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  
+  .slides {
+    grid-template-columns: 1fr;
+  }
+}
