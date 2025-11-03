@@ -9,23 +9,22 @@
     "lint": "eslint"
   },
   "dependencies": {
-   
     "@types/react-slick": "^0.23.13",
     "franc-min": "^6.2.0",
     "lucide-react": "^0.552.0",
-    "next": "16.0.1",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "next": "14.2.15",           // ← STABLE
+    "react": "18.3.1",           // ← STABLE
+    "react-dom": "18.3.1",       // ← STABLE
     "react-slick": "^0.31.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^18",       // ← Match React 18
+    "@types/react-dom": "^18",   // ← Match React 18
     "eslint": "^9",
-    "eslint-config-next": "16.0.1",
+    "eslint-config-next": "14.2.15",  // ← Match Next.js 14
     "tailwindcss": "^4",
     "typescript": "^5"
   }
