@@ -1,23 +1,8 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/main.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "app-frontend/package.json",
-      "use": "@vercel/next"
+  "functions": {
+    "api/main.py": {
+      "memory": 1024,
+      "maxDuration": 30
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "api/main.py"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "app-frontend"
-    }
-  ]
+  }
 }
